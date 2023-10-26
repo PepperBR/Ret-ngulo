@@ -47,6 +47,17 @@ public class Retangulo {
         return perimetro; 
     }
 
+    // Método TpString :
+
+    // Método ToString:
+
+    public String toString (){
+        String str = "";
+        str += "Largura = " + this.lenght;
+        str += "Comprimento = " + this.width;
+        return str;
+    }
+
     public static void main(String [] args){
         Retangulo r = new Retangulo();
         r.setLenght(13f);
